@@ -8,7 +8,7 @@ class App extends Component {
         <SideNav
           id="SideNav-10"
           options={{ draggable: true }}
-          trigger={<Button node="button">SIDE NAV DEMO</Button>}
+          trigger={<Button node="button"><Icon>menu</Icon></Button>}
         >
           <SideNavItem userView
             user={{
@@ -128,6 +128,7 @@ class App extends Component {
             </Col>
           </MediaBox>
         </Row>
+
 
 
       </div>

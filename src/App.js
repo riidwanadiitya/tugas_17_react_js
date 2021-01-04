@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SideNav, SideNavItem, Button, Icon, Slider, Slide, Caption, Row, MediaBox, Col, Card, CardTitle, Pagination } from "react-materialize";
+import { SideNav, SideNavItem, Button, Icon, Slider, Slide, Caption, Row, MediaBox, Col, Card, CardTitle } from "react-materialize";
 
 class App extends Component {
   render() {
@@ -128,13 +128,7 @@ class App extends Component {
             </Col>
           </MediaBox>
         </Row>
-        <Pagination
-          activePage={1}
-          items={10}
-          leftBtn={<Icon>chevron_left</Icon>}
-          maxButtons={8}
-          rightBtn={<Icon>chevron_right</Icon>}
-        />
+
 
       </div>
     );

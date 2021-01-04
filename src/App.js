@@ -132,7 +132,7 @@ class App extends Component {
           activePage={1}
           items={10}
           leftBtn={<Icon>chevron_left</Icon>}
-          maxButtons={5}
+          maxButtons={8}
           rightBtn={<Icon>chevron_right</Icon>}
         />
 
